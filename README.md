@@ -3,11 +3,12 @@
 Make sure to use setup Python v3.9.13 or above, use requirements.txt to install all dependencies alternatively you can also use pipenv to setup your Python enviournment.
 ```bash
 project/
-├── TUI_Cruises_task.pynb       -- Contains Analysis & Code
-├── requirements.txt         -- Contains all libraries/requirements to be pre installed before running code
-├── data.csv	            -- contains data for this task
-├──schema.pdf            -- Contains data columns descriptions
-├──Task Description.pdf            -- Contains task description 
+├── Code.zip                # Contains all analysis scripts and notebooks
+├── data.zip                # Contains data for the code
+├── requirements.txt        # Contains all libraries/requirements to be installed before running the code
+├── schema.pdf              # Contains data column descriptions
+├── Task Description.pdf    # Contains task description and objectives
+
 ```
 Usage
 To use this project, follow these steps:
@@ -18,15 +19,16 @@ To use this project, follow these steps:
 git clone https://github.com/RajSinha77/TUI-Task
 cd TUI-Task
 ```
+2. After Cloning unzip the Code.zip & data.zip and place it in the same folder.
 
-2. **Explore the Jupyter Notebooks:**
-   - After cloning the repository,  explore the analysis by running the provided Jupyter Notebooks (TUI_Cruises_task.ipynb)
+3. **Explore the Jupyter Notebooks:**
+   - After cloning the repository,  explore the analysis by running the provided Jupyter Notebooks (code.ipynb)
    ```bash
    jupyter notebook
    ```
 
    
 ### Exporting a Jupyter Notebook
-Jupyter Notebooks can be exported using `nbconvert` (`pip install nbconvert`). For example, to export the example notebook to html: `jupyter nbconvert --to html examples/TUI_Cruises_task.ipynb --embed-images --output TUI_Cruises_task.html`
+Jupyter Notebooks can be exported using `nbconvert` (`pip install nbconvert`). For example, to export the example notebook to html: `jupyter nbconvert --to html examples/code.ipynb --embed-images --output code.html`
 
 Disclaimer: Since this Pynb file uses the Plotly library, it is interactive and creative but at the same time will be heavy. Please have patience.
