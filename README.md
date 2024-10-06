@@ -1,4 +1,7 @@
 # TUI-Task
+#Description :
+
+Analyze the provided dataset for two Cruise ships (Vessel 1 and 2) and develop a narrative explaining the performance trends (e.g.: efficiency, propulsion, power generation, etc.). This analysis can pertain to the vessel as a whole or its individual components. You can also select KPIs, based on international regulatory requirements for shipping.
 
 Make sure to use setup Python v3.9.13 or above, use requirements.txt to install all dependencies alternatively you can also use pipenv to setup your Python enviournment.
 ```bash
