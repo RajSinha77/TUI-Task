@@ -9,7 +9,7 @@ Make sure to use setup Python v3.9.13 or above, use requirements.txt to install 
 ```bash
 project/
 ├── Code.zip                # Contains all analysis scripts and notebooks
-├── Code.html               # Contains notebook for quick analysis
+├── Code.html.zip               # Contains notebook for quick analysis
 ├── data.zip                # Contains data for the code
 ├── requirements.txt        # Contains all libraries/requirements to be installed before running the code
 ├── schema.pdf              # Contains data column descriptions
@@ -25,7 +25,7 @@ To use this project, follow these steps:
 git clone https://github.com/RajSinha77/TUI-Task
 cd TUI-Task
 ```
-2. After Cloning unzip the Code.zip, code.html & data.zip and place it in the same folder.
+2. After Cloning unzip the Code.zip, code.html.zip & data.zip and place it in the same folder.
 
 3. **Explore the Jupyter Notebooks:**
    - After cloning the repository,  explore the analysis by running the provided Jupyter Notebooks (code.ipynb)
